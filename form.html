@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/users.css" />
+    <title>Users</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="form">
+        <div>
+          <label>Adı</label>
+          <div class="group">
+            <input type="text" id="txtUser" class="txt" />
+            <button class="btn" onclick="add()">Kaydet</button>
+          </div>
+          <em id="em-user">Bu alan zorunlu *</em>
+        </div>
+        <div>
+          <input
+            type="radio"
+            id="rdbMale"
+            class="rdb"
+            value="1"
+            name="gender"
+            checked
+          />
+          Erkek
+          <input type="radio" class="rdb" value="2" name="gender" /> Kadın
+        </div>
+        <hr />
+      </div>
+      <div>
+        <h3>Kayıtlı Kullanıcılar</h3>
+        <span id="no-user">Henüz kullanıcı eklenmedi</span>
+        <ul id="users"></ul>
+      </div>
+    </div>
+    <script src="js/users.js"></script>
+  </body>
+</html>

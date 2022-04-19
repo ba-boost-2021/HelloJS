@@ -1,0 +1,58 @@
+.container {
+    width: 600px;
+    margin: 0 auto;
+    font-family: 'Segoe UI';
+}
+
+.container label
+{
+    display: block;
+}
+
+.form .group{
+    display: flex;
+}
+
+em {
+    margin-bottom: 20px;
+    display: block;
+    font-size: 12px;
+    color: crimson;
+    display: none;
+}
+
+.txt{
+    width: 100%;
+    margin-right: 10px;
+    margin-top: 5px;
+    height: 20px;
+    margin-bottom: 5px;
+}
+
+.btn {
+    margin-top: 5px;
+    height: 25px;
+}
+
+#users {
+    list-style: none;
+    padding: 0px;
+}
+#users li {
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 3px;
+    font-weight: 500;
+}
+
+#users li.male {
+    border: 2px solid rgb(31, 97, 196);
+    background-color: rgb(117, 177, 247);
+    color: #fff
+}
+#users li.female {
+    border: 2px solid rgb(158, 31, 196);
+    background-color: rgb(218, 119, 243);
+    color: #fff
+}
