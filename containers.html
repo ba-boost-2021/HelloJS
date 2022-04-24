@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Containers</title>
+    <style>
+        div{
+            
+            margin: 20px;
+            padding: 20px;
+        }
+        #first {
+            background-color: aquamarine;
+            height: 160px;
+        }
+        #second {
+            background-color: burlywood;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div id="first" onclick="mainClick(event)">
+        <div id="second" onclick="mediumClick(event)">
+            <button onclick="buttonClick(event)">Click</button>
+            <button id="otherButton">Other Click</button>
+        </div>
+    </div>
+    <script src="js/containers.js"></script>
+</body>
+</html>
